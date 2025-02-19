@@ -13,7 +13,7 @@ st.title("NYC Campaign Finance Data Visualization")
 # Load and process data
 @st.cache_data  # This caches the data to improve performance
 def load_data():
-    df = pd.read_csv('data/Contributions_20250212.csv')
+    df = pd.read_csv('./data/Contributions_20250212.csv')
     return df
 
 # Load the data
